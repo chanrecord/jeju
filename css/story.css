@@ -182,7 +182,7 @@
 		display: block;
 	}
 	.fairytale img {
-		width: 80%;
+		width: 60%;
 		padding-left: 60px;
 		padding-top: 50px;
 		padding-bottom: 80px;
@@ -190,11 +190,11 @@
 	.fairytale h2{
 		padding-top: 30px;
 		padding-left: 10px;
-		font-size: 160%;
+		font-size: 40px;
 	}
 	.fairytale p{
 		padding-left: 10px;
-		font-size: 90%;
+		font-size: 20px;
 	}
 	.logoimg2 {
 		padding: 4%;
@@ -294,4 +294,5 @@
         text-align: left;
         margin-left: 50px;
     }
+
 }
