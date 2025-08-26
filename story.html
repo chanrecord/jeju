@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/story.css">
     <link rel="stylesheet" href="./css/common.css">
 </head>
@@ -142,8 +143,8 @@
             <article><a href="">제주방언</a></article>
         </section>
         <section class="fairytale block">
-            <article>
-                <div class="fairytale_text ">
+            <article  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="fairytale_text">
                     <h2>태초의 세상이 열린 이야기,개벽신화</h2>
                     <p>오랫동안 세상은 그저 암흑이었습니다. 어둠과 혼돈으로 휩싸인 암흑천지에 개벽의 기운이 돌기 시작했어요. 갑자년 갑자월 갑자일 갑자시에 하늘 머리가 열리고, 을축년 을축월
                         을축일 을축시에 땅의 머리가 열리며 미세한 금이 생겨났습니다. 금이 점점 벌어지는 동안 땅이 솟아 오르고 물이 흘러내려 하늘과 땅의 경계가 조금씩 분명해져 갔어요.
@@ -155,7 +156,7 @@
                 </div>
                 <div class="fairytale_left"><img src="./img/gaebyeok.png" alt=""></div>
             </article>
-            <article class="fairytale_mid">
+            <article class="fairytale_mid"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <div class="fairytale_right"><img src="./img/sulmundae.png" alt=""></div>
                 <div class="fairytale_text">
                     <h2>제주섬이 빚어진 이야기,<br>설문대 전설</h2>
@@ -170,7 +171,7 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <div class="fairytale_text">
                     <h2>탐라국이 생겨난 이야기,<br>탐라개국신화</h2>
                     <p>한라산 북녘 기슭 땅에 심상치 않은 기운이 돌더니 땅 속에서 세 신인이 차례로 솟아났습니다. 세 신인은 거친 산야에서 사냥을 해 가죽옷을 입고 고기를 먹으며 살았답니다.
@@ -316,7 +317,13 @@
     <div class="top_btn">
         <a href=""><img src="./img/top.png" alt=""></a>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    AOS.init();
+</script>
     <script src="./js/common.js"></script>
 </body>
+
 
 </html>
